@@ -1,6 +1,5 @@
 ---
 title: DADI
-timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -28,8 +27,9 @@ defaults:
   values:
     image:
     link:
+baseurl: ""
 url: https://data-accelerator.github.io
-description:
+description: DADI home
 permalink: pretty
 exclude:
 - Gruntfile.js
