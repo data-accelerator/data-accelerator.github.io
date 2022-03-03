@@ -19,7 +19,7 @@ features:
   width: wide
   subsections:
   - title: '<span style="font-size: 18px">Accelerated container image</span>'
-    body: Sub-project of containerd, contains a containerd snapshotter and image conversion tools. <a class="text_link" href="(blog/Accelerated_container_image/)">more</a>
+    body: Sub-project of containerd, contains a containerd snapshotter and image conversion tools. <a class="text_link" href="/blog/Accelerated_container_image/">more</a>
     image: "/assets/containerd.png"
     button:
       title: Github
