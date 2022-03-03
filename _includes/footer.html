@@ -1,0 +1,13 @@
+<div class="footerWrap">
+  <footer class="footer">
+    <ul class="footer__items">
+      {% for item in site.footer_nav %}
+      <li class="footer__item">
+        <a href="{{ item[1] }}" class="footer__link">{{ item[0] }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <span class="footer__madeBy"> © <a href="https://data-accelerator.github.io"> DADI team</a></span>
+    <div class="footer__cite">this site is based on jekyll and siteleaf template</div>
+  </footer>
+</div>
